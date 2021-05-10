@@ -1,0 +1,19 @@
+{% extends 'blog/base.html'%}
+
+{% block content %}
+
+    <div class="content-section">
+
+            <fieldset class="form-group">
+             <h2>You have Successfully logged Out!!</h2>
+
+            </fieldset>
+
+        <small class="text-muted" >
+            <a href="{% url 'login' %}">Log Back In</a>
+       </small>
+
+      </div>
+
+
+{% endblock %}
