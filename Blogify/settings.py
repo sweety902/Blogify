@@ -36,7 +36,7 @@ ALLOWED_HOSTS = ['blogify-me.herokuapp.com']
 INSTALLED_APPS = [
     'django.contrib.admin',
     'crispy_forms',
-    'users.apps.UserConfig',
+    'users.apps.UsersConfig',
     'blog.apps.BlogConfig',
     'django.contrib.auth',
     'django.contrib.contenttypes',
